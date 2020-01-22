@@ -25,6 +25,7 @@ public class QuizActivity extends AppCompatActivity {
                         R.string.correct_toast,
                         Toast.LENGTH_SHORT);
 
+                // adjusts gravity of toast
                 toast.setGravity(Gravity.TOP, 0, 200);
                 toast.show();
             }
@@ -37,6 +38,8 @@ public class QuizActivity extends AppCompatActivity {
                 Toast toast = Toast.makeText(QuizActivity.this,
                         R.string.incorrect_toast,
                         Toast.LENGTH_SHORT);
+
+                // adjusts gravity of toast
                 toast.setGravity(Gravity.TOP, 0, 200);
                 toast.show();
             }
